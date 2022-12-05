@@ -1,0 +1,73 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* 
+table {
+  margin-left: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+thead > tr {
+  background-color: gray;
+} */
+
+.myTable {
+  display: table;
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.myTable-caption {
+  display: table-caption;
+  text-align: center;
+  font-size: 18;
+  font-weight: bold;
+}
+
+.myTable-th {
+  display: table-header-group;
+  background-color: gray;
+  /* font-weight: bold; */
+  font-size: 18px;
+}
+
+.myTable-thc {
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.myTable-tbody {
+  display: table-row-group;
+}
+
+.myTable-tr {
+  display: table-row;
+}
+
+.myTable-td {
+  display: table-cell;
+  border: 1px solid black;
+}
