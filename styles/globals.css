@@ -34,7 +34,7 @@ thead > tr {
 .myTable {
   display: table;
   margin: 20px;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 
@@ -45,16 +45,21 @@ thead > tr {
   font-weight: bold;
 }
 
+.myTable-caption.black {
+  background-color: black;
+  color: white;
+}
+
 .myTable-th {
   display: table-header-group;
   background-color: gray;
-  /* font-weight: bold; */
   font-size: 18px;
+  /* font-weight: bold; */
 }
 
 .myTable-thc {
   display: table-cell;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   border: 1px solid black;
 }
@@ -69,5 +74,7 @@ thead > tr {
 
 .myTable-td {
   display: table-cell;
+  padding: 5px;
   border: 1px solid black;
+  vertical-align: middle;
 }
