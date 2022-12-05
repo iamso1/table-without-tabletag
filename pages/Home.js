@@ -1,8 +1,9 @@
+const host = `https://example.com/`;
 export default function Home() {
   return (
     <div>
       <div itemScope itemType="https://schema.org/RadioStation">
-        <meta itemProp="url" content="https://radios.tw/i-bcc-music-network/" />
+        <meta itemProp="url" content={`${host}/example-station`} />
         <h3>電台資訊：</h3>
         <table>
           <thead>
@@ -34,9 +35,7 @@ export default function Home() {
                 <span itemProp="description">我是描述</span>
               </td>
               <td>
-                <span itemProp="url">
-                  https://radios.tw/i-bcc-music-network/
-                </span>
+                <span itemProp="url">{`${host}/example-station`}</span>
               </td>
             </tr>
           </tbody>
